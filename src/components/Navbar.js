@@ -9,8 +9,7 @@ class Navbar extends Component {
       <nav className="navbar navbar-dark bg-dark p-0 text-monospace">
         <a
           className="navbar-brand col-sm-3 col-md-2 mr-0"
-          href="chrisfox.eth"
-          target="_blank"
+          href="#"
           rel="noopener noreferrer"
         >
           <img src={box} width="30" height="30" className="align-top" alt="" />
