@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "chrisfoxmusic",
   "author": "chrisfoxeth",
-  "homepage": ".",
+  "homepage": "./",
   "dependencies": {
     "@truffle/hdwallet-provider": "^1.1.0",
     "babel-polyfill": "6.26.0",
