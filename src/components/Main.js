@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { convertBytes } from './helpers';
-import soundfile from '/Users/chrisfox/git/landing-pages/src/assets/audibleSilence/Throop.eth.mp3';
-import Sound from 'react-sound';
 import moment from 'moment'
 
 class Main extends Component {
