@@ -1,11 +1,13 @@
 {
   "name": "landing-pages",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "chrisfoxmusic",
   "author": "chrisfoxeth",
   "homepage": "./",
   "dependencies": {
     "@truffle/hdwallet-provider": "^1.1.0",
+    "@unlock-protocol/unlock-abi-9": "^1.0.0",
+    "@unlock-protocol/unlock-js": "^0.19.2",
     "babel-polyfill": "6.26.0",
     "babel-preset-env": "1.7.0",
     "babel-preset-es2015": "6.24.1",
