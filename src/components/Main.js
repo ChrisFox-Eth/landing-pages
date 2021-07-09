@@ -25,7 +25,7 @@ class Main extends Component {
                   <tbody>
                   <tr className="bg-light text-black">
                   <td>Audible Silence</td>
-                  <td><a target="_blank" rel="noopener noreferrer" href="https://storageapi.fleek.co/foxaweber-team-bucket/JLIM%20Scratch%205-17-14.mp3">JLIM</a></td>
+                  <td><a target="_blank" rel="noopener noreferrer" href="https://ipfs.io/ipfs/QmWBZQKPcuBbPoMPqfH9EsqBhUJ3tyEFfzHboWkTziWGDx?filename=Initial%20Bounce%20Sampled.mp3">JLIM</a></td>
                   </tr>
                   <tr className="bg-light text-black">
                   <td>Trophywife</td>
