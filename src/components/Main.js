@@ -12,7 +12,7 @@ class Main extends Component {
             <div className="content">
               <p>&nbsp;</p>
               <div className="card mb-3 mx-auto bg-light" style={{ maxWidth: '512px' }}>
-                <h2 className="text-dark text-monospace bg-light"><b>Music built on Ethereum, no <span role="img" aria-label="cap" alt="cap">🧢</span></b></h2>
+                <h2 className="text-dark text-monospace bg-light"><b>ChrisFox.eth - a testing ground</b></h2>
               </div>
               <p>&nbsp;</p>
               <table className="table-sm table-bordered text-monospace" style={{ width: '100%', maxHeight: '450px'}}>
@@ -27,18 +27,9 @@ class Main extends Component {
                   <td>Audible Silence</td>
                   <td><a target="_blank" rel="noopener noreferrer" href="https://ipfs.io/ipfs/QmWBZQKPcuBbPoMPqfH9EsqBhUJ3tyEFfzHboWkTziWGDx?filename=Initial%20Bounce%20Sampled.mp3">JLIM</a></td>
                   </tr>
-                  <tr className="bg-light text-black">
-                  <td>Trophywife</td>
-                  <td><a target="_blank" rel="noopener noreferrer" href="https://storageapi.fleek.co/foxaweber-team-bucket/Someones%20gonna%20shoot%20me.mp3">Someone's gonna shoot me</a></td>
-                  </tr>
-                  <tr className="bg-light text-black">
-                  <td>Audible Silence</td>
-                  <td><a target="_blank" rel="noopener noreferrer" href="https://storageapi.fleek.co/foxaweber-team-bucket/Throop.eth.mp3">Throop.eth</a></td>
-                  </tr>
                 </tbody>
               </table>
-            </div><br></br><br></br><br></br><br></br><br></br><br></br>
-            <div class="text-monospace">Tips accepted in the currency of your choice: 0xa7758394D8f7fD23b0d9F13E02427B514687394B</div>
+            </div>
           </main>
         </div>
       </div>
