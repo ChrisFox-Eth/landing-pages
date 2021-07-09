@@ -23,6 +23,33 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>ChrisFox.eth</title>
+    <script>
+(function(d, s) {
+  var js = d.createElement(s),
+    sc = d.getElementsByTagName(s)[0];
+  js.src="https://paywall.unlock-protocol.com/static/unlock.latest.min.js";
+  sc.parentNode.insertBefore(js, sc); }(document, "script"));
+</script>
+<script>
+var unlockProtocolConfig = {
+  network: 137, // Polygon Mainnet network ID is 137
+  locks: {
+    '0x6130a776e0E6D99491C728a88C6F5567fDDa6C48': { // 0x6130a776e0E6D99491C728a88C6F5567fDDa6C48 is the address of a lock.
+      name: 'This is your Lock',
+      network: 1 // you can customize the network for each lock
+    }
+  },
+  icon: 'https://app.unlock-protocol.com/static/images/svg/default.svg',
+  callToAction: {
+    default: 'This content is locked. Pay with cryptocurrency to access it!',
+    expired: 'This is what is shown when the user had a key which is now expired',
+    pending: 'This is the message shown when the user sent a transaction to purchase a key which has not be confirmed yet',
+    confirmed: 'This is the message shown when the user has a confirmed key',
+    noWallet: 'This is the message shown when the user does not have a crypto wallet which is required...',
+  },
+  referrer: '0xreferrer' // Address of the referrer who will earn UDT governance tokens if the transaction is eligible.
+}
+</script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
